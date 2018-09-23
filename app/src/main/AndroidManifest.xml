@@ -19,15 +19,12 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-
         <activity android:name=".MessagesAdmin">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivityAdmin"/>
-
+                android:value=".MainActivityAdmin" />
         </activity>
-
-
+        <activity android:name=".AlertActivity"></activity>
     </application>
 
 </manifest>

@@ -24,4 +24,5 @@
 
     <color name="black1">#1a1a1a</color>
     <color name="black2">#333333</color>
+    <color name="lightgray">#d3d9de</color>
 </resources>
