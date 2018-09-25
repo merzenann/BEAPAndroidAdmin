@@ -47,7 +47,9 @@ public class MainActivityAdmin extends AppCompatActivity
                 mBuilder.setPositiveButton("Yes, I'm sure", new DialogInterface.OnClickListener() {
                     @Override
                     public void onClick(DialogInterface dialogInterface, int i) {
-                        dialogInterface.dismiss();
+                        Intent intent = new Intent(MainActivityAdmin.this,AlertActivity.class);
+                        startActivity(intent);
+
                     }
                 });
                     mBuilder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
