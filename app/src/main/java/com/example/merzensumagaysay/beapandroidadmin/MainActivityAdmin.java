@@ -64,6 +64,37 @@ public class MainActivityAdmin extends AppCompatActivity
             }
         });
 
+
+        CardView m1ShowDialog = (CardView) findViewById(R.id.btnOrders);
+        m1ShowDialog.setOnClickListener(new View.OnClickListener()
+        {
+            @Override
+            public void onClick (View view)
+            {
+                AlertDialog.Builder m1Builder = new AlertDialog.Builder(MainActivityAdmin.this);
+                m1Builder.setTitle(R.string.dialog_title);
+                m1Builder.setMessage(R.string.dialog_cmd);
+                m1Builder.setCancelable(false);
+                m1Builder.setPositiveButton("Yes, I'm sure", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        Intent intent = new Intent(MainActivityAdmin.this,CommandActivity.class);
+                        startActivity(intent);
+
+                    }
+                });
+                m1Builder.setNegativeButton("Cancel", new DialogInterface.OnClickListener() {
+                    @Override
+                    public void onClick(DialogInterface dialogInterface, int i) {
+                        dialogInterface.dismiss();
+                    }
+                });
+
+                AlertDialog alertDialog = m1Builder.create();
+                alertDialog.show();
+            }
+        });
+
     }
 
     public void setActionBarTitle (String title)

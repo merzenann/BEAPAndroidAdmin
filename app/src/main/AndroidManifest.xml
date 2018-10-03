@@ -25,7 +25,8 @@
                 android:value=".MainActivityAdmin" />
         </activity>
         <activity android:name=".AlertActivity" />
-        <activity android:name=".GuidelinesAdmin"></activity>
+        <activity android:name=".GuidelinesAdmin" />
+        <activity android:name=".CommandActivity"></activity>
     </application>
 
 </manifest>
