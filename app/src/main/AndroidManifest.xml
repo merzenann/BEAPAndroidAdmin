@@ -26,7 +26,12 @@
         </activity>
         <activity android:name=".AlertActivity" />
         <activity android:name=".GuidelinesAdmin" />
-        <activity android:name=".CommandActivity"></activity>
+        <activity android:name=".CommandActivity" />
+        <activity android:name=".EarthquakeTemplate" />
+        <activity android:name=".FloodTemplate" />
+        <activity android:name=".BombThreatTemplate" />
+        <activity android:name=".ActiveShooterTemplate" />
+        <activity android:name=".FireTemplate"></activity>
     </application>
 
 </manifest>
