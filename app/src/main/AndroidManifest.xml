@@ -2,6 +2,10 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.merzensumagaysay.beapandroidadmin">
 
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+
+
     <application
         android:allowBackup="true"
         android:icon="@mipmap/ic_launcher"
@@ -10,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".MainActivityAdmin"
+            android:name=".GuidelinesAdmin"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -19,19 +23,22 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".MessagesAdmin">
+        <activity android:name=".NavOrDash.MessagesAdmin">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".MainActivityAdmin" />
+                android:value=".GuidelinesAdmin" />
         </activity>
-        <activity android:name=".AlertActivity" />
-        <activity android:name=".GuidelinesAdmin" />
-        <activity android:name=".CommandActivity" />
-        <activity android:name=".EarthquakeTemplate" />
-        <activity android:name=".FloodTemplate" />
-        <activity android:name=".BombThreatTemplate" />
-        <activity android:name=".ActiveShooterTemplate" />
-        <activity android:name=".FireTemplate"></activity>
+        <activity android:name=".NavOrDash.AlertActivity" />
+        <activity android:name=".MainActivityAdmin" />
+        <activity android:name=".NavOrDash.CommandActivity" />
+        <activity android:name=".EditTemplates.EarthquakeTemplate" />
+        <activity android:name=".EditTemplates.FloodTemplate" />
+        <activity android:name=".EditTemplates.BombThreatTemplate" />
+        <activity android:name=".EditTemplates.ActiveShooterTemplate" />
+        <activity android:name=".EditTemplates.FireTemplate" />
+        <activity android:name=".EditTemplates.FirePrimary" />
+        <activity android:name=".EditTemplates.FloodPrimary" />
+        <activity android:name=".BlueprintSafestExit"></activity>
     </application>
 
 </manifest>

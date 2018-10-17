@@ -15,6 +15,10 @@ import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import com.example.merzensumagaysay.beapandroidadmin.NavOrDash.AlertActivity;
+import com.example.merzensumagaysay.beapandroidadmin.NavOrDash.CommandActivity;
+import com.example.merzensumagaysay.beapandroidadmin.NavOrDash.MessagesAdmin;
+
 public class MainActivityAdmin extends AppCompatActivity
         implements NavigationView.OnNavigationItemSelectedListener {
 

@@ -4,11 +4,11 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.merzensumagaysay.beapandroidadmin.EarthquakeTemplate">
+    tools:context="com.example.merzensumagaysay.beapandroidadmin.EditTemplates.EarthquakeTemplate">
 
 
     <ImageView
-        android:id="@+id/imageView3"
+        android:id="@+id/editEQuake"
         android:layout_width="112dp"
         android:layout_height="99dp"
         android:layout_marginBottom="8dp"
@@ -105,7 +105,7 @@
         app:layout_constraintVertical_bias="0.819" />
 
     <Button
-        android:id="@+id/update"
+        android:id="@+id/updateEquake"
         android:layout_width="109dp"
         android:layout_height="45dp"
         android:layout_marginBottom="8dp"

@@ -1,7 +1,9 @@
-package com.example.merzensumagaysay.beapandroidadmin;
+package com.example.merzensumagaysay.beapandroidadmin.NavOrDash;
 
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+
+import com.example.merzensumagaysay.beapandroidadmin.R;
 
 public class MessagesAdmin extends AppCompatActivity {
 

@@ -1,4 +1,4 @@
-package com.example.merzensumagaysay.beapandroidadmin;
+package com.example.merzensumagaysay.beapandroidadmin.EditTemplates;
 
 import android.app.ListActivity;
 import android.support.v7.app.AppCompatActivity;
@@ -9,6 +9,8 @@ import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.EditText;
 import android.widget.Toast;
+
+import com.example.merzensumagaysay.beapandroidadmin.R;
 
 import java.util.ArrayList;
 
@@ -74,6 +76,8 @@ public class EarthquakeTemplate extends ListActivity {
         delete.setOnClickListener(eqlistener2);
 
         setListAdapter(adapter);
+
+
     }
 
 }

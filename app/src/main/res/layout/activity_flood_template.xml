@@ -4,6 +4,17 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.merzensumagaysay.beapandroidadmin.FloodTemplate">
+    tools:context="com.example.merzensumagaysay.beapandroidadmin.EditTemplates.FloodTemplate">
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:fontFamily="serif"
+        android:gravity="center_vertical"
+        android:padding="0dp"
+        android:textColor="@color/black1"
+        android:textSize="20sp"
+        android:textStyle="bold" />
 
 </android.support.constraint.ConstraintLayout>

@@ -1,10 +1,17 @@
-package com.example.merzensumagaysay.beapandroidadmin;
+package com.example.merzensumagaysay.beapandroidadmin.NavOrDash;
 
 import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.CardView;
 import android.view.View;
+
+import com.example.merzensumagaysay.beapandroidadmin.EditTemplates.ActiveShooterTemplate;
+import com.example.merzensumagaysay.beapandroidadmin.EditTemplates.BombThreatTemplate;
+import com.example.merzensumagaysay.beapandroidadmin.EditTemplates.EarthquakeTemplate;
+import com.example.merzensumagaysay.beapandroidadmin.EditTemplates.FireTemplate;
+import com.example.merzensumagaysay.beapandroidadmin.EditTemplates.FloodTemplate;
+import com.example.merzensumagaysay.beapandroidadmin.R;
 
 public class CommandActivity extends AppCompatActivity {
 
