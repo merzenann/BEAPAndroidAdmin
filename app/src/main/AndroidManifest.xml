@@ -14,7 +14,7 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
         <activity
-            android:name=".GuidelinesAdmin"
+            android:name=".BlueprintSafestExit"
             android:label="@string/app_name"
             android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
@@ -26,7 +26,7 @@
         <activity android:name=".NavOrDash.MessagesAdmin">
             <meta-data
                 android:name="android.support.PARENT_ACTIVITY"
-                android:value=".GuidelinesAdmin" />
+                android:value=".BlueprintSafestExit" />
         </activity>
         <activity android:name=".NavOrDash.AlertActivity" />
         <activity android:name=".MainActivityAdmin" />
@@ -38,7 +38,7 @@
         <activity android:name=".EditTemplates.FireTemplate" />
         <activity android:name=".EditTemplates.FirePrimary" />
         <activity android:name=".EditTemplates.FloodPrimary" />
-        <activity android:name=".BlueprintSafestExit"></activity>
+        <activity android:name=".GuidelinesAdmin"></activity>
     </application>
 
 </manifest>
